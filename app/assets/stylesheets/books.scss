@@ -1,0 +1,58 @@
+// Place all the styles related to the books controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 24px;
+}
+
+h3 {
+	font-size: 28px;
+}
+
+a {
+	display: inline-block;
+	text-decoration: none;
+	color: gray;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+#top {
+	padding: 20px;
+}
+
+#top a {
+	margin-top: 20px;
+}
+
+#tdtitle {
+	width: 200px;
+}
+
+#tdbody {
+	width: 400px;
+}
+
+#tdmove {
+	width: 200px;
+}
+
+.notice {
+	color: green;
+}
+
+.field_with_errors {
+  padding: 2px;
+  background-color: red;
+  display: table;
+}
